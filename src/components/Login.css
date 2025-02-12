@@ -1,0 +1,297 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(115, 115, 115, 1);
+}
+
+main {
+    width: 330px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+div.login-container {
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+}
+
+div.login-container i.icon-ig {
+    background-image: url('https://static.cdninstagram.com/rsrc.php/v4/yO/r/81fXxo65t4C.png');
+    background-position: 0px 0px;
+    background-size: 176px 492px;
+    width: 175px;
+    height: 51px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div.input-container label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(115, 115, 115);
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+div.input-container input {
+    width: calc(100% - 20px);
+    padding: 12px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    background: none;
+}
+
+div.input-container input:not(:placeholder-shown)+label {
+    top: 10px;
+    font-size: 12px;
+    color: #000;
+}
+
+.password-input {
+    width: 200px;
+    padding: 8px 70px 8px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+}
+
+.toggle-password:hover {
+    color: rgb(115, 115, 115, 1);
+}
+
+.password-container {
+    position: relative;
+    display: inline-block;
+}
+
+div.button-container {
+    text-align: center;
+}
+
+div.button-container button {
+    text-decoration: none;
+    background-color: rgb(0, 149, 246, 1);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+div.container-line-o {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(115, 115, 115, 1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.container-line-o div.line-orizzontal {
+    height: 1px;
+    width: 140px;
+    background-color: #ddd;
+}
+
+div.container-line-o div.letter-o {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.link-icon-fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+}
+
+.link-icon-fb:hover span {
+    color: #0a58ca;
+}
+
+.link-icon-fb i.icon-fb {
+    width: 24px;
+    height: 24px;
+    background-image: url('icons8-facebook-nuovo-48.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+.link-password {
+    text-decoration: none;
+    color: rgba(0, 55, 107, 1);
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text a {
+    text-decoration: none;
+    color: rgba(0, 55, 107, 1);
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+div.container-line-o {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+div.container-line-o {
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+div.registration-container {
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 13px;
+}
+
+div.registration-container a {
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+}
+
+div.other-info span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.image {
+    margin-bottom: 20px;
+}
+
+div.image img {
+    width: 136px;
+    height: 40px;
+}
+
+#imgGoogle {
+    margin-left: 3px;
+}
+
+#imgApple {
+    margin-right: 3px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.container-links {
+    display: flex;
+}
+
+div.container-lang-copyright {
+    display: flex;
+}
+
+.login-container,
+.registration-container,
+.other-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+div.box {
+    margin-bottom: 12px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 0;
+}
+
+div.box a {
+    text-decoration: none;
+    color: rgb(115, 115, 115, 1);
+}
+
+div.container-lang-copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+
+div.copyright {
+    margin-left: 16px;
+}
+
+select {
+    text-decoration: none;
+    border: none;
+    color: rgb(115, 115, 115, 1);
+}
