@@ -295,3 +295,13 @@ select {
     border: none;
     color: rgb(115, 115, 115, 1);
 }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.button-esc {
+    margin: 0 auto;
+    width: 30%;
+}
